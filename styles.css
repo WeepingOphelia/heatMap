@@ -1,0 +1,73 @@
+body {
+  background-color: #202020;
+  color: grey;
+  padding: 50px;
+}
+
+h1 {
+  font-family: consolas;
+  text-align: center;
+}
+
+h3 {
+  font-family: monospace;
+  text-align: center;
+}
+
+#chart {
+  position: relative;
+}
+
+#chartbox {
+
+  min-width: 0px;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  padding: 20px
+  
+}
+
+#chartwrap {
+  overflow-x: auto;
+}
+
+#legend-axis {
+  font-size: 1rem;
+  font-family: monospace;
+}
+
+#legendbox {
+
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+
+}
+
+#lgnd-lbl {
+  font-family: consolas;
+}
+
+#tooltip {
+  z-index: 10;
+  background-color: #101010;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 0px 15px;
+  position: absolute;
+  text-align: center;
+  font-family: consolas;
+
+}
+
+.cell:hover {
+  stroke: #202020;
+  stroke-width: 2;
+}
+
+.row {
+  display: flex;
+}
